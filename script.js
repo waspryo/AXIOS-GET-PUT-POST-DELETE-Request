@@ -20,3 +20,13 @@ axios.post("https://jsonplaceholder.typicode.com/users", {
 .then(res => {
     console.log(res)
 })
+
+// PUT
+axios.put('https://jsonplaceholder.typicode.com/users/1',{
+    name: "joker",
+    email: 'Joker@gmail.com',
+    phone: "21321231"
+})
+.then(res => {
+    console.log(res.data)
+})
