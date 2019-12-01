@@ -30,3 +30,11 @@ axios.put('https://jsonplaceholder.typicode.com/users/1',{
 .then(res => {
     console.log(res.data)
 })
+
+// DELETE
+axios.delete('https://jsonplaceholder.typicode.com/users/4',{
+
+})
+.then(function(res){
+    console.log(res.data)
+})
